@@ -5,7 +5,7 @@ Attribute VB_Name = "Dynamic_MergetoSNPDF"
 ' Make sure template file are NOT located in a OneDrive synced folder (Like Downloads folder)
 ' Make sure serial number column is named SN in data file
 
-Sub MergetoSNPDF()
+Sub Dynamic_MergetoSNPDF()
 
 ' Get Production Order number and create folder
     Dim pdoNum As String
