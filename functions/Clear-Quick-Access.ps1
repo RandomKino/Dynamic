@@ -1,5 +1,5 @@
 # Clear Quick Access history for current user
-# It may not just delete bt reset Quick Access
+# It may not just delete but reset Quick Access
 
 function Clear-Quick-Access {
     Get-ChildItem -Path ($env:USERPROFILE + "\AppData\Roaming\Microsoft\Windows\Recent") -Include *.* -File -Recurse | Foreach { $_.Delete()}
