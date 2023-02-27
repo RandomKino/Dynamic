@@ -1,3 +1,4 @@
+# Return Windows Activation status
 # Return boolean, true = activated, false = not activated.
 
 function Get-Activation-Status {
