@@ -1,4 +1,6 @@
-﻿function OutputText($Text,$Color){
+# Usage: OutputText "Hello World" "Yellow"
+
+function OutputText($Text,$Color){
     $j = $Text.Length
     for ($i = 1; $i -le $j; $i++) {
        $Lines = $Lines + "-"
@@ -10,7 +12,3 @@
     $Host.UI.RawUI.BackgroundColor = "DarkBlue"
     Write-Host $Lines
 }
-
-OutputText "Hello World" "Yellow"
-
-
