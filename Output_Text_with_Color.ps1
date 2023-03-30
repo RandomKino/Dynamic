@@ -9,7 +9,7 @@
     Write-Host $Text
     $Host.UI.RawUI.BackgroundColor = "DarkBlue"
     Write-Host $Lines
- }
+}
 
 OutputText "Hello World" "Yellow"
 
